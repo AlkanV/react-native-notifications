@@ -23,6 +23,7 @@
   "scripts": {
     "build": "rm -rf ./lib/dist && tsc",
     "prestart": "npm run build",
+	"prepare": "npm run build",
     "pretest-js": "npm run build",
     "pretest-unit-ios": "npm run build",
     "pretest-unit-android": "npm run build",
